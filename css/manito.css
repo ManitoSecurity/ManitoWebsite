@@ -1,0 +1,18 @@
+@media #{$medium-up} {
+    .splash {
+        min-height: 100%;
+        width: 100%;
+        background-color: #33363c;
+        text-align: right;
+    }
+
+}
+
+@media #{$small-only} {
+    .splash {
+        min-height: 100%;
+        width: 100%;
+        background-color: #33363c;
+        text-align: right;
+    }
+}
