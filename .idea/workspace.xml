@@ -32,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.30459127" vertical-offset="0" max-vertical-offset="893">
-                  <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+                <state vertical-scroll-proportion="0.4568869" vertical-offset="0" max-vertical-offset="893">
+                  <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -56,8 +56,8 @@
           <file leaf-file-name="manito.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/manito.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.073993474" vertical-offset="0" max-vertical-offset="919">
-                  <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.2959739" vertical-offset="0" max-vertical-offset="919">
+                  <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +80,8 @@
     <option name="changedFiles">
       <list>
         <option value="$USER_HOME$/Downloads/project-files/project-files/lesson15.html" />
-        <option value="$PROJECT_DIR$/css/manito.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/manito.css" />
       </list>
     </option>
   </component>
@@ -309,7 +309,11 @@
       <created>1413144386214</created>
       <updated>1413144386214</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="push to both">
+      <created>1413144858034</created>
+      <updated>1413144858034</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -356,7 +360,8 @@
     <MESSAGE value="first REAL update" />
     <MESSAGE value="test push" />
     <MESSAGE value="logoimage" />
-    <option name="LAST_COMMIT_MESSAGE" value="logoimage" />
+    <MESSAGE value="push to both" />
+    <option name="LAST_COMMIT_MESSAGE" value="push to both" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -513,16 +518,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/manito.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.073993474" vertical-offset="0" max-vertical-offset="919">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.2959739" vertical-offset="0" max-vertical-offset="919">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30459127" vertical-offset="0" max-vertical-offset="893">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.4568869" vertical-offset="0" max-vertical-offset="893">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding />
         </state>
       </provider>

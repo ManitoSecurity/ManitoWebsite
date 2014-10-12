@@ -1,11 +1,24 @@
+.titlecustom h1{
+    color:white;
+}
+
+.titlecustom h2{
+    color:#2bb29d;
+}
+
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-.splash {
-        min-height: 100%;
-        width: 100%;
-        background-color: #33363c;
-        text-align: right;
+    .titlecustom{
+        text-align: left;
     }
+
+    .splash {
+            height: 100%;
+            width: 100%;
+            max-height: 900px;
+            background-color: #33363c;
+            text-align: right;
+        }
 
 }
 
@@ -15,6 +28,6 @@
         min-height: 100%;
         width: 100%;
         background-color: #33363c;
-        text-align: right;
+        text-align: center;
     }
 }
