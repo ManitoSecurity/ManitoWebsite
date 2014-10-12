@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e685118c-88cc-4fc2-9b57-764bdd3cf81a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/manito.css" afterPath="$PROJECT_DIR$/css/manito.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Manito.iws" />
@@ -30,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22844344" vertical-offset="0" max-vertical-offset="893">
-                  <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.30459127" vertical-offset="0" max-vertical-offset="893">
+                  <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -54,8 +56,8 @@
           <file leaf-file-name="manito.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/manito.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31447226" vertical-offset="0" max-vertical-offset="919">
-                  <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.073993474" vertical-offset="0" max-vertical-offset="919">
+                  <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -299,7 +301,15 @@
       <created>1413144109039</created>
       <updated>1413144109039</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="logoimage">
+      <created>1413144357956</created>
+      <updated>1413144357956</updated>
+    </task>
+    <task id="LOCAL-00007" summary="logoimage">
+      <created>1413144386214</created>
+      <updated>1413144386214</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -345,7 +355,8 @@
     <MESSAGE value="hello both worlds" />
     <MESSAGE value="first REAL update" />
     <MESSAGE value="test push" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push" />
+    <MESSAGE value="logoimage" />
+    <option name="LAST_COMMIT_MESSAGE" value="logoimage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -502,16 +513,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/manito.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31447226" vertical-offset="0" max-vertical-offset="919">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.073993474" vertical-offset="0" max-vertical-offset="919">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22844344" vertical-offset="0" max-vertical-offset="893">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.30459127" vertical-offset="0" max-vertical-offset="893">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding />
         </state>
       </provider>
