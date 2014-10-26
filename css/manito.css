@@ -1,10 +1,23 @@
+/* FONTS */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
 /* SPLASH */
+.titlecustom {
+    text-align: center;
+    bottom:-40px;
+}
 .titlecustom h1{
     color:white;
+    font-size: 71px;
+    font-family: Nunito;
+    margin-bottom: -20px;
 }
 
 .titlecustom h2{
     color:#2bb29d;
+    font-size: 36px;
+    font-family: Nunito;
 }
 
 
@@ -18,7 +31,8 @@
 }
 
 .benefit{
-    min-height: 350px;
+    min-height: 400px;
+    max-width: 355px;
     border: 3px solid #c3c3c3;
     /* Safari 3-4, iOS 1-3.2, Android 1.6- */
     -webkit-border-radius: 10px;
@@ -26,8 +40,8 @@
     -moz-border-radius: 10px;
     /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
     border-radius: 10px;
-    margin:10px;
-    padding:10px;
+    margin:10px auto auto auto;
+    padding:15px;
 }
 
 .benefit img{
@@ -38,10 +52,15 @@
 }
 .benefit p{
     color: #33363c;
+    font-size: 18px;
+    font-family: Open Sans;
 }
 h3{
     text-align: center;
     color:#2bb29d;
+    margin-top: 25px;
+    font-family: Nunito;
+
 }
 
 /* CONNECT */
@@ -55,7 +74,30 @@ h3{
     color: white;
 }
 
-/* min-width 641px, medium screens */
+/* SENIOR DESIGN */
+.seniordesign{
+    height: 1000px;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("img/campus.jpg");
+}
+.seniordesigncontent{
+    margin: 20px auto auto auto;
+}
+
+h4 {
+    font-family: Nunito;
+    color: white;
+    text-align: center;
+}
+
+.seniordesign p{
+    font-family: Open Sans;
+    color:white;
+}
+
+/* min-width 641px, MEDIUM */
 @media only screen and (min-width: 40.063em) {
     .titlecustom{
         text-align: left;
@@ -101,11 +143,20 @@ h3{
 
 }
 
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* max-width 640px, SMALL */
 @media only screen and (max-width: 40em) {
 
+        .titlecustom h1{
+            font-size: 50px;
+            margin-bottom: -10px;
+        }
+
+        .titlecustom h2{
+            font-size: 25px;
+        }
         .splashinner img{
             float: none;
+            margin-bottom: -40px;
         }
 
         .splashcontainer{
