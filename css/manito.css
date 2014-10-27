@@ -1,8 +1,8 @@
-/* FONTS */
+/*----------------- FONTS -----------------*/
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 
-/* SPLASH */
+/*----------------- SPLASH -----------------*/
 .titlecustom {
     text-align: center;
     bottom:-40px;
@@ -21,12 +21,34 @@
 }
 
 
-/* BENEFITS */
+.splashcontainer img{
+    position:relative;
+    float: right;
+}
+
+.splashcontainer{
+    height:650px;
+    max-height:100%;
+    background-attachment: fixed;
+    background-position: 50% 100%;
+    background-size: cover;
+    background-image: url("../img/street.jpg");
+}
+
+.absolutecenter {
+    width: 100%;
+    height: 50%;
+    min-height: 200px;
+    overflow: visible;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/*----------------- BENEFITS -----------------*/
 .benefits{
-    position: relative;
     -webkit-transform: translate3d(0,0,0);
     background-color: white;
-    z-index: 200;
     padding:100px 20px 20px 20px;
 }
 
@@ -47,7 +69,6 @@
 .benefit img{
     display:block;
     margin: -65px auto auto auto;
-    position: relative;
     text-align: center;
 }
 .benefit p{
@@ -63,31 +84,34 @@ h3{
 
 }
 
-/* CONNECT */
+/*----------------- CONNECT -----------------*/
 .connect{
-    z-index: 200;
-    position: relative;
     background-color: #ff8758;
 }
 
 .connect h1{
-    color: white;
+    font-family: Nunito;
+    color:white;
 }
 
-/* SENIOR DESIGN */
+/*----------------- SENIOR DESIGN -----------------*/
 .seniordesign{
-    height: 1000px;
-    background-position: 50% 50%;
+    position: relative;
+    height: 500px;
+    overflow: auto;
     background-attachment: fixed;
+    background-position: 50% 50%;
     background-size: cover;
-    background-image: url("img/campus.jpg");
+    background-image: url("../img/campus.jpg");
 }
+
 .seniordesigncontent{
-    margin: 20px auto auto auto;
+    margin: auto auto auto auto;
 }
 
 h4 {
     font-family: Nunito;
+    font-size: 56px;
     color: white;
     text-align: center;
 }
@@ -95,57 +119,76 @@ h4 {
 .seniordesign p{
     font-family: Open Sans;
     color:white;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: left;
+    text-justify: distribute;
 }
 
-/* min-width 641px, MEDIUM */
+.seniordesign span{
+    padding-left: 3em;
+    color:#2bb29d;
+    font-weight: bold;
+}
+
+/*----------------- DEVELOPERS -----------------*/
+.developers {
+    padding-top: 100px;
+    background-color: white;
+    height: 250px;
+}
+
+.developer{
+    margin:60px auto 60px auto;
+}
+.developers h1{
+    font-size: 36px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+}
+
+.developers h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color:#2bb29d;
+}
+
+.developers p{
+    font-family: Open Sans;
+    font-size: 18px;
+}
+.bio {
+    margin-top:60px;
+}
+
+
+/*----------------- min-width 641px, MEDIUM -----------------*/
 @media only screen and (min-width: 40.063em) {
-    .titlecustom{
-        text-align: left;
-    }
+        .titlecustom{
+            text-align: left;
+        }
 
-    .splashinner img{
-        float: right;
-    }
-    .splashcontainer{
-        position: relative;
-        height:100%;
-        max-height: 750px;
-        background-color: #33363c;
-    }
+        .benefits{
+            padding:150px 20px 150px 20px;
+        }
 
-    .splashmiddle{
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        font: 0/0 a;
-        -webkit-transform: translateZ(0);
-    }
-
-    .splashmiddle:before {
-        content: ' ';
-        display: inline-block;
-        vertical-align: middle;
-        height: 100%;
-    }
-
-    .splashinner{
-        vertical-align: middle;
-        display: inline-block;
-        margin-top: -10%;
-        -webkit-transform: translate3d(0,0,0);
-
-    }
-    .benefits{
-        padding:150px 20px 150px 20px;
-    }
-
+        h4{
+            font-size: 50px;
+        }
 }
 
-/* max-width 640px, SMALL */
+/*----------------- max-width 640px, SMALL -----------------*/
 @media only screen and (max-width: 40em) {
 
+        .absolutecenter{
+            height:100%;
+            position:relative;
+            overflow: visible;
+            padding: 30px 0px 20px 0px;
+        }
+
+        /* SPLASH */
         .titlecustom h1{
             font-size: 50px;
             margin-bottom: -10px;
@@ -154,26 +197,64 @@ h4 {
         .titlecustom h2{
             font-size: 25px;
         }
-        .splashinner img{
+
+        .splashcontainer{
+            background-image:none;
+            background-color:#33363c;
+        }
+        .splashcontainer img{
+            margin-top:50px;
             float: none;
             margin-bottom: -40px;
         }
 
-        .splashcontainer{
-            position: relative;
-            height:400px;
-            background-color: #33363c;
-        }
-
-        .splashinner{
-            vertical-align: middle;
-            display: inline-block;
-            margin-top: 50px;
-            -webkit-transform: translate3d(0,0,0);
-
-        }
+        /*----------------- BENEFIT -----------------*/
         .benefits{
             background-color: white;
-            padding:60px 20px 60px 20px;
+            padding:60px 0px 60px 0px;
+        }
+
+        /*----------------- SENIOR DESIGN -----------------*/
+        .seniordesign{
+            height:auto;
+            background-image: none;
+            background-color:#22262b;
+        }
+
+        h4{
+            font-size: 29px;
+        }
+
+        .seniordesign span{
+            padding-left: 1em;
+        }
+        .seniordesign p{
+            font-size: 18px;
+            line-height: 150%;
+        }
+
+        /*----------------- DEVELOPERS -----------------*/
+        .developer img{
+            margin: auto;
+            display: block;
+        }
+
+        .developer h1{
+            font-size: 25px;
+        }
+
+        .developer h2{
+            font-size:20px;
+        }
+        .bio{
+            text-align: center;
+            margin: auto;
+        }
+        .bio p{
+            margin: auto;
+            max-width:25em;
+            padding:0 15px 0 15px;
+            font-size: 18px;
+            text-align: left;
         }
 }

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e685118c-88cc-4fc2-9b57-764bdd3cf81a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/campus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/brian.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/charlie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/chris.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/collin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/door.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/street.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/launchericon.png" afterPath="$PROJECT_DIR$/img/launchericon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/manito.css" afterPath="$PROJECT_DIR$/css/manito.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -34,8 +40,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5392297" vertical-offset="1220" max-vertical-offset="1921">
-                  <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+                <state vertical-scroll-proportion="0.6040373" vertical-offset="1124" max-vertical-offset="2856">
+                  <caret line="89" column="110" selection-start-line="89" selection-start-column="110" selection-end-line="89" selection-end-column="110" />
                   <folding />
                 </state>
               </provider>
@@ -48,8 +54,8 @@
           <file leaf-file-name="manito.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/manito.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.39824304" vertical-offset="1122" max-vertical-offset="3128">
-                  <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.5021962" vertical-offset="1221" max-vertical-offset="4505">
+                  <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -66,6 +72,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="JsBowerSettings">
     <exe-path />
@@ -346,13 +355,20 @@
       <option name="project" value="LOCAL" />
       <updated>1413160465913</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="started work on Who We Are section">
+      <created>1414351509474</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1414351509474</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -368,7 +384,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -396,7 +411,8 @@
     <MESSAGE value="logoimage" />
     <MESSAGE value="push to both" />
     <MESSAGE value="basic framework, parralax (still not working mobile)" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic framework, parralax (still not working mobile)" />
+    <MESSAGE value="started work on Who We Are section" />
+    <option name="LAST_COMMIT_MESSAGE" value="started work on Who We Are section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -722,18 +738,38 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/door.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/launchericon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/chris.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/brian.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/manito.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39824304" vertical-offset="1122" max-vertical-offset="3128">
-          <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.5021962" vertical-offset="1221" max-vertical-offset="4505">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5392297" vertical-offset="1220" max-vertical-offset="1921">
-          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6040373" vertical-offset="1124" max-vertical-offset="2856">
+          <caret line="89" column="110" selection-start-line="89" selection-start-column="110" selection-end-line="89" selection-end-column="110" />
           <folding />
         </state>
       </provider>
