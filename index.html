@@ -9,19 +9,36 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-  <section class = "splashcontainer">
-      <div class="row absolutecenter">
-          <div class = "medium-5 small-12 columns text-center">
-              <img src="img/launchericon.png"/>
-          </div>
-          <div class ="medium-7 small-12 titlecustom columns">
-              <h1>MANITO</h1>
-              <h2>security solutions</h2>
+  <section class = "splashcontainer" id = "top">
+      <div class = "row absolutecenter">
+          <div class="columns small-12">
+              <div class="row">
+                  <div class = "medium-5 small-12 columns text-center">
+                      <img src="img/logoempty.png"/>
+                  </div>
+                  <div class ="medium-7 small-12 titlecustom columns">
+                      <h1>MANITO</h1>
+                      <h2>security solutions</h2>
+                  </div>
+              </div>
+              <div class="row more">
+                  <div class="small-10 small-offset-1  medium-9 medium-offset-1 large-offset-0 large-10 columns">
+                      <a href="#benefits"  target="_blank" class="button">find out more</a>
+                  </div>
+                  <div class="columns medium-2 large-2 drop">
+                      <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown"></button><br>
+                      <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="false" tabindex="-1" class = "large">
+                          <li><a href="#benefits">What is Manito</a></li>
+                          <li><a href="#connect">Learn More</a></li>
+                          <li><a href="#whoweare">Who We Are</a></li>
+                      </ul>
+                  </div>
+              </div>
           </div>
       </div>
   </section>
 
-  <section class="benefits">
+  <section class="benefits" id = "benefits">
     <div class="row">
         <div class="small-12 medium-6 large-4 columns">
             <div class="benefit">
@@ -61,14 +78,14 @@
     </div>
   </section>
 
-  <section class="connect">
+  <section class="connect" id = "connect">
      <div class="row">
         <div class="large-12 text-center">
             <h1>WANT TO KNOW MORE?</h1>
         </div>
      </div>
      <div class="row collapse">
-         <div class="small-10 medium-9 medium-offset-1 columns bar">
+         <div class="small-10 medium-9 medium-offset-1 columns">
             <a href="https://github.com/ManitoSecurity"  target="_blank" class="button">fork us on github</a>
         </div>
          <div class="small-2 columns">
@@ -78,12 +95,12 @@
      </div>
 
      <div class="row collapse">
-             <div class="small-10 medium-9 medium-offset-1 columns bar">
+             <div class="small-10 medium-9 medium-offset-1 columns">
                  <form data-abide = "ajax" id = "emailform">
                      <label>
-                         <input type="email" id = "emailtext" placeholder="join our mail list" />
+                         <input type="email" id = "emailtext" placeholder="join our email list" />
                      </label>
-                     <small class="error">Whoops, are you sure that's your email?</small>
+                     <small class="error">Whoops! Are you sure that's your email?</small>
              </div>
              <div class="small-2 columns">
                  <button type = "submit" class="button prefix" id = "smallemailsubmit">+</button>
@@ -94,7 +111,7 @@
   </section>
 
 
-  <section class = "seniordesign">
+  <section class = "seniordesign" id = "whoweare">
       <div class="row absolutecenter">
         <div class ="large-6 medium-7 small-10 seniordesigncontent">
             <h4>WHO WE ARE</h4>
@@ -164,10 +181,16 @@
     </div>
   </section>
 
+  <section class="footer">
+
+
+  </section>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.abide.js"></script>
     <script src ="js/emailform.js"></script>
+    <script src ="js/smoothscroll.js"></script>
   <script>
       $(document).foundation();
     </script>

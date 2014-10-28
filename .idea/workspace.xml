@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e685118c-88cc-4fc2-9b57-764bdd3cf81a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/emailform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/street.jpg" afterPath="$PROJECT_DIR$/img/street.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/campuscolor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/city.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logoempty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/smoothscroll.js" />
+      <change type="DELETED" beforePath="C:\Users\Collin\WebstormProjects\ManitoWebsite\img\door.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/campus.jpg" afterPath="$PROJECT_DIR$/img/campus.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/foundation.css" afterPath="$PROJECT_DIR$/css/foundation.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/manito.css" afterPath="$PROJECT_DIR$/css/manito.css" />
@@ -33,30 +37,30 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-20.423077" vertical-offset="1084" max-vertical-offset="3077">
-                  <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.5820257" vertical-offset="0" max-vertical-offset="3468">
+                  <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="foundation.abide.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/foundation/foundation.abide.js">
+          <file leaf-file-name="smoothscroll.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/smoothscroll.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.321428" vertical-offset="175" max-vertical-offset="5423">
-                  <caret line="24" column="13" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+                  <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="emailform.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="emailform.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/emailform.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.27567568" vertical-offset="0" max-vertical-offset="740">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
                   <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
@@ -70,8 +74,8 @@
           <file leaf-file-name="manito.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/manito.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7135135" vertical-offset="2345" max-vertical-offset="6358">
-                  <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.579795" vertical-offset="5469" max-vertical-offset="7446">
+                  <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +84,8 @@
           <file leaf-file-name="foundation.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/foundation.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.321428" vertical-offset="32611" max-vertical-offset="104992">
-                  <caret line="1932" column="45" selection-start-line="1932" selection-start-column="38" selection-end-line="1932" selection-end-column="45" />
+                <state vertical-scroll-proportion="-6.140351" vertical-offset="28754" max-vertical-offset="105043">
+                  <caret line="1712" column="13" selection-start-line="1712" selection-start-column="13" selection-end-line="1712" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -242,6 +246,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Collin\WebstormProjects\ManitoWebsite\js" />
+      <recent name="C:\Users\Collin\WebstormProjects\ManitoWebsite\js\foundation" />
       <recent name="C:\Users\Collin\WebstormProjects\Manito\css" />
     </key>
   </component>
@@ -394,19 +399,26 @@
       <option name="project" value="LOCAL" />
       <updated>1414370940903</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="whant to know more done except for inserting into database the emails and fork button &quot;highlighting&quot; both prefix and suffix">
+      <created>1414449575462</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1414449575462</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.083333336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13802083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18901795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -416,7 +428,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -446,21 +457,14 @@
     <MESSAGE value="basic framework, parralax (still not working mobile)" />
     <MESSAGE value="started work on Who We Are section" />
     <MESSAGE value="We Are Section done" />
-    <option name="LAST_COMMIT_MESSAGE" value="We Are Section done" />
+    <MESSAGE value="whant to know more done except for inserting into database the emails and fork button &quot;highlighting&quot; both prefix and suffix" />
+    <option name="LAST_COMMIT_MESSAGE" value="whant to know more done except for inserting into database the emails and fork button &quot;highlighting&quot; both prefix and suffix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/manito.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1700">
@@ -752,16 +756,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/campus.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/door.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/launchericon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -782,17 +776,30 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+    <entry file="file://$PROJECT_DIR$/js/emailform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.321428" vertical-offset="32611" max-vertical-offset="104992">
-          <caret line="1932" column="45" selection-start-line="1932" selection-start-column="38" selection-end-line="1932" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/foundation.min.js">
+    <entry file="file://$PROJECT_DIR$/img/campus.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.abide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="727">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="175" max-vertical-offset="5423">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10727">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
@@ -800,34 +807,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.abide.js">
+    <entry file="file://$PROJECT_DIR$/js/foundation.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.321428" vertical-offset="175" max-vertical-offset="5423">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.2338377" vertical-offset="0" max-vertical-offset="727">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.140351" vertical-offset="28754" max-vertical-offset="105043">
+          <caret line="1712" column="13" selection-start-line="1712" selection-start-column="13" selection-end-line="1712" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/smoothscroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.423077" vertical-offset="1084" max-vertical-offset="3077">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/manito.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7135135" vertical-offset="2345" max-vertical-offset="6358">
-          <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.579795" vertical-offset="5469" max-vertical-offset="7446">
+          <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/emailform.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27567568" vertical-offset="0" max-vertical-offset="740">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5820257" vertical-offset="0" max-vertical-offset="3468">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding />
         </state>
       </provider>
