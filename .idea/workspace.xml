@@ -419,7 +419,13 @@
       <option name="project" value="LOCAL" />
       <updated>1415946675786</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="MAJOR update with everything done but footer and sql database">
+      <created>1415946679998</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1415946679998</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
