@@ -6,7 +6,18 @@
     <title>Manito Security Solution</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/manito.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <script src="js/vendor/modernizr.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-56204542-1', 'auto');
+        ga('send', 'pageview');
+    </script>
   </head>
   <body>
   <section class = "splashcontainer" id = "top">
@@ -23,14 +34,14 @@
               </div>
               <div class="row more">
                   <div class="small-10 small-offset-1  medium-9 medium-offset-1 large-offset-0 large-10 columns">
-                      <a href="#benefits"  target="_blank" class="button">find out more</a>
+                      <a href="#benefits"  target="_blank" class="button">let's get started</a>
                   </div>
                   <div class="columns medium-2 large-2 drop">
                       <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown"></button><br>
-                      <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="false" tabindex="-1" class = "large">
-                          <li><a href="#benefits">What is Manito</a></li>
-                          <li><a href="#connect">Learn More</a></li>
-                          <li><a href="#whoweare">Who We Are</a></li>
+                      <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1" class = "large">
+                          <li><a href="#benefits">What is Manito?</a></li>
+                          <li><a href="#connect">Keep Current</a></li>
+                          <li><a href="#whoweare">The Devs</a></li>
                       </ul>
                   </div>
               </div>
@@ -81,33 +92,33 @@
   <section class="connect" id = "connect">
      <div class="row">
         <div class="large-12 text-center">
-            <h1>WANT TO KNOW MORE?</h1>
+            <h1>KEEP UP TO DATE </h1>
         </div>
      </div>
-     <div class="row collapse">
-         <div class="small-10 medium-9 medium-offset-1 columns">
-            <a href="https://github.com/ManitoSecurity"  target="_blank" class="button">fork us on github</a>
-        </div>
-         <div class="small-2 columns">
-             <a href="https://github.com/ManitoSecurity"  target="_blank" class="button prefix">⇅</a>
+      <form data-abide = "ajax" id = "emailform">
+          <div class="row collapse">
+             <div class="small-10 medium-9 medium-offset-1 columns">
+                <a href="https://github.com/ManitoSecurity"  target="_blank" class="button">fork us on github</a>
+            </div>
+             <div class="small-2 columns">
+                 <a href="https://github.com/ManitoSecurity"  target="_blank" class="button prefix">⇅</a>
+             </div>
+
          </div>
 
-     </div>
-
-     <div class="row collapse">
-             <div class="small-10 medium-9 medium-offset-1 columns">
-                 <form data-abide = "ajax" id = "emailform">
-                     <label>
-                         <input type="email" id = "emailtext" placeholder="join our email list" />
-                     </label>
-                     <small class="error">Whoops! Are you sure that's your email?</small>
-             </div>
-             <div class="small-2 columns">
-                 <button type = "submit" class="button prefix" id = "smallemailsubmit">+</button>
-             </div>
-         </form>
-
-     </div>
+         <div class="row collapse">
+                 <div class="small-10 medium-9 medium-offset-1 columns">
+                         <label>
+                             <input type="email" id = "emailtext" placeholder="join our email list"
+                                    onfocus="focusemail(this)" onblur="unfocusemail(this)"/>
+                         </label>
+                         <small class="error">Whoops! Are you sure that's your email?</small>
+                 </div>
+                 <div class="small-2 columns">
+                     <button type = "submit" class="button prefix" id = "smallemailsubmit">+</button>
+                 </div>
+         </div>
+      </form>
   </section>
 
 
@@ -158,7 +169,7 @@
       <div class = "large-7 medium-7 small-12 columns bio">
           <h1>Chris Birmingham</h1>
           <h2>electrical engineering</h2>
-          <p>While not combing the beaches or hiking the hills of his hometown, Tacoma Washington, Chris Birmingham
+          <p>While not combing the beaches or hiking the hills of his hometown Tacoma, Washington, Chris Birmingham
                   enjoys tinkering with robots and electronics. During breaks from studying Electrical Engineering,
                   Chris spends his time rock climbing and dancing with friends.</p>
 
@@ -182,7 +193,21 @@
   </section>
 
   <section class="footer">
+      <div class="row">
+          <div class="columns small-12 small-centered">
+              <h1>Copyright &copy; <script type="text/javascript">
+                var d = new Date()
+                document.write(d.getFullYear())
+            </script>
+                Manito Security</h1>
+          </div>
+      </div>
 
+      <div class="row">
+          <div class="columns small-12 small-centered">
+              <a href="mailto:manitosolutions@gmail.com?" target="_top"><h1>manitosolutions@gmail.com</h1></a>
+          </div>
+      </div>
 
   </section>
 
@@ -190,8 +215,9 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.abide.js"></script>
     <script src ="js/emailform.js"></script>
+    <script src ="js/focusemail.js"></script>
     <script src ="js/smoothscroll.js"></script>
-  <script>
+    <script>
       $(document).foundation();
     </script>
   </body>
