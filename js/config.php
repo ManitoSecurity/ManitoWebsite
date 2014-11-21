@@ -11,6 +11,10 @@
     $yourfield = "email";
 
     //Connecting to your database
-    mysql_connect($hostname, $username, $password) OR DIE ("Unable to connect to database! Please try again later.");
+    $mysqli = new mysqli($hostname, $username, $password, $dbname) OR DIE ("Unable to connect to database! Please try again later.");
 
+    if ($mysqli->connect_error) {
+        die("Connection failed: " . $mysqli->connect_error);
+        header('Connection failed!');
+    }
 ?>
