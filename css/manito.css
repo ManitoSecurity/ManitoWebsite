@@ -394,6 +394,7 @@ h4 {
     color: #6f7b80;
     text-decoration:underline;
 }
+
 /*----------------- min-width 641px, MEDIUM -----------------*/
 @media only screen and (min-width: 40.063em) {
     .titlecustom{

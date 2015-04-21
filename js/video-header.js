@@ -38,11 +38,13 @@ var HeaderVideo = (function ($, document) {
             appendFrame();
             fixPlayer();
             displayRemoveButton();
+            jump('img-container')
         });
         settings.videoCloseTrigger.on('click', function(e){
             e.preventDefault();
             removeFrame();
             fixImg();
+            jump('benefits');
         });
     };
 
@@ -160,3 +162,10 @@ var HeaderVideo = (function ($, document) {
     };
 
 })(jQuery, document);
+
+function jump(h){
+    var top = document.getElementById(h).offsetTop;
+    $('body,html').animate({
+        scrollTop:top
+    },400);
+}
