@@ -20,26 +20,15 @@
     </script>
   </head>
   <body>
-  <section class = "splashcontainer" id = "top">
-      <div class = "row absolutecenter">
-          <div class="columns small-12">
-              <div class="row">
-                  <div class = "medium-5 small-12 columns text-center">
-                      <img src="img/logoempty.png" data-at2x="http://manitosecurity.com/img/logoempty@2x.png"/>
-                  </div>
-                  <div class ="medium-7 small-12 titlecustom columns">
-                      <h1>MANITO</h1>
-                      <h2>security solutions</h2>
-                  </div>
-              </div>
-              <div class="row more">
-                  <div class="large-5 columns large-centered">
-                      <a href="#benefits"  target="_blank" class="button large-text-center">home security, simplified</a>
-                  </div>
-              </div>
-          </div>
+
+  <div class="header-video">
+      <div id="dummy"></div>
+      <div class="img-container" id="img-container">
+        <img src="img/meet_manito.jpg" class="header-video--media" data-video-src="tsS5TuQCJ1s" data-teaser-source="" data-provider="Youtube" data-video-width="500" data-video-height="281" id="first_frame">
       </div>
-  </section>
+      <a href="https://www.youtube.com/watch?v=tsS5TuQCJ1s" class="video-trigger" id="video-trigger"/>Play Video</a>
+      <a href="https://www.youtube.com/watch?v=tsS5TuQCJ1s" class="video-trigger" id="video-close-trigger"/>Stop Video</a>
+  </div>
 
   <section class="benefits" id = "benefits">
     <div class="row">
@@ -72,7 +61,7 @@
                 <h3>PLUG AND PLAY</h3>
                 <p>
                     Just because Manito Security is open source doesn’t mean you need an engineering degree to
-                    operate it. Our developers have made spent many hours to ensure that set up is a breeze and basic
+                    operate it. Our developers have spent many hours to ensure that set up is a breeze and basic
                     customization painless.
                 </p>
             </div>
@@ -209,6 +198,20 @@
     <script src ="js/emailform.js"></script>
     <script src ="js/focusemail.js"></script>
     <script src ="js/smoothscroll.js"></script>
+    <script src="js/video-header.js"></script>
+    <script>
+
+        $(document).ready(function() {
+
+            HeaderVideo.init({
+                container: $('.header-video'),
+                header: $('.header-video--media'),
+                videoTrigger: $("#video-trigger"),
+                autoPlayVideo: false
+            });
+
+        });
+    </script>
     <script type="text/javascript" src="js/retina.min.js"></script>
     <script>
       $(document).foundation();

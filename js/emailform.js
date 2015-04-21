@@ -8,6 +8,7 @@ $('#emailform')
             document.getElementById("emailtext").focus();
             document.getElementById("emailtext").placeholder = "someone@email.com";
         }
+
         else{
             emailbutton.style.background = "#c3c3c3";
             emailbutton.style.color = "white";
