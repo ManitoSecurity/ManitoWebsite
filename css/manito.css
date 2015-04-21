@@ -82,6 +82,99 @@
     top: 0; left: 0; bottom: 0; right: 0;
 }
 
+/*----------------- VIDEO SPLASH -----------------*/
+.header {
+    position: relative;
+    overflow: hidden;
+}
+
+.header-video{
+    position: relative;
+    width: 100%;
+    background-color: #fafafa;
+    min-height: 250px;
+    overflow: hidden;
+}
+
+iframe, video {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.teaser-video {
+    width: 100%;
+    height: auto;
+}
+
+.header-media {
+    width: 100%;
+    height: auto;
+}
+
+.img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+}
+
+.img-container:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.img-container img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#dummy {
+    padding-top: 100%; /* forces 1:1 aspect ratio */
+}
+
+.video-trigger {
+    z-index: 5;
+    position: absolute;
+    background: #222;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    z-index: 5;
+    margin-bottom: -40px;
+    line-height: 40px;
+    -webkit-transition: margin .4s;
+    -moz-transition: margin .4s;
+    transition: margin .4s;
+}
+
+.video-trigger:hover{
+    color: #fafafa;
+}
+
+#video-trigger{
+    background-color: #2bb29d;
+}
+
+#video-close-trigger{
+    color: #ffffff;
+    background-color: #22262b;
+}
 /*----------------- BENEFITS -----------------*/
 .benefits{
     -webkit-transform: translate3d(0,0,0);

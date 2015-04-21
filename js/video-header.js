@@ -118,20 +118,20 @@ var HeaderVideo = (function ($, document) {
 
     var removePlayButton = function () {
         if(settings.videoTrigger) {
-            document.getElementById('video-trigger').style.marginTop = "-40px";
+            document.getElementById('video-trigger').style.marginBottom = "-40px";
         }
     };
 
     var displayPlayButton = function() {
         if(settings.videoTrigger) {
-            document.getElementById('video-trigger').style.marginTop = "0px";
+            document.getElementById('video-trigger').style.marginBottom = "0px";
         }
     };
 
     var displayRemoveButton = function() {
         if(settings.videoTrigger) {
             document.getElementById('video-close-trigger').style.display = "initial";
-            document.getElementById('video-close-trigger').style.marginTop = "0px";
+            document.getElementById('video-close-trigger').style.marginBottom = "0px";
         }
     };
     var fixPlayer = function(){
